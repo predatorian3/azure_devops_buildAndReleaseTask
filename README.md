@@ -46,6 +46,8 @@ This will execute the `tfx` CLI client to package the ADO Extension.
 
 ## References
 
-* [Microsoft Azure DevOps: Create Custom Task](https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-build-task?view=azure-devops)
+* [Microsoft Azure DevOps: Create Custom Agent Task](https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-build-task?view=azure-devops)
+* [Microsoft Azure DevOps: azure-pipelines-task-lib Reference](https://github.com/microsoft/azure-pipelines-task-lib/blob/master/node/docs/azure-pipelines-task-lib.md)
 * [Microsoft Azure DevOps: Custom Task Folder Structures](https://docs.microsoft.com/en-us/azure/devops/extend/develop/integrate-build-task?view=azure-devops)
 * [Microsoft Azure DevOps: vss-extension.json Schema](https://docs.microsoft.com/en-us/azure/devops/extend/develop/manifest?view=azure-devops)
+* [Microsoft Azure DevOps: Create Custom Server Task](https://github.com/Microsoft/azure-pipelines-tasks/blob/master/docs/authoring/servertaskauthoring.md)
