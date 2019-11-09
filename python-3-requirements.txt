@@ -1,0 +1,6 @@
+autopep8
+pycodestyle
+pylint
+pytest
+shovel
+virtualenv

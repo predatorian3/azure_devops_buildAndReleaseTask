@@ -1,0 +1,38 @@
+{
+  "name": "buildandreleasetask",
+  "version": "0.1.0",
+  "description": "An Azure DevOps Extension Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/_suite.js",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Predatorian3/azure_devops_buildAndReleaseTask.git"
+  },
+  "keywords": [
+    "azure",
+    "devops",
+    "pipeline",
+    "task"
+  ],
+  "author": "Phillip Dudley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Predatorian3/azure_devops_buildAndReleaseTask/issues"
+  },
+  "homepage": "https://github.com/Predatorian3/azure_devops_buildAndReleaseTask#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.9.3",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.7",
+    "@types/q": "^1.5.2",
+    "mocha": "^6.2.2",
+    "sync-request": "^6.1.0",
+    "tfx-cli": "^0.7.9"
+  }
+}

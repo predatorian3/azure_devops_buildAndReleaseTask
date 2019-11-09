@@ -1,0 +1,36 @@
+{
+  "manifestVersion": 1,
+  "id": "build-release-task",
+  "name": "dudleyp Build and Release Tools",
+  "version": "0.1.0",
+  "publisher": "dudleyp",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Tools for building/releasing with dudleyp. includes one task.",
+  "categories": [
+    "Azure Pipeliens"
+  ],
+  "icons": {
+    "default": "images/extension-icon.png"
+  },
+  "files": [
+    {
+      "path": "tasks/buildAndReleaseTask"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "custom-build-release-task",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "buildAndReleaseTask"
+      }
+    }
+  ]
+}
