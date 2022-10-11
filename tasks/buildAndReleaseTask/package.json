@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Predatorian3/azure_devops_buildAndReleaseTask#readme",
   "dependencies": {
-    "azure-pipelines-task-lib": "^2.9.3",
+    "azure-pipelines-task-lib": "^4.0.0-preview",
     "typescript": "^3.7.2"
   },
   "devDependencies": {
