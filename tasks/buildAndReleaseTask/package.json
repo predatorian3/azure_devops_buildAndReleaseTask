@@ -31,7 +31,7 @@
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.7",
     "@types/q": "^1.5.2",
-    "mocha": "^6.2.3",
+    "mocha": "^10.2.0",
     "sync-request": "^6.1.0",
     "tfx-cli": "^0.12.0"
   }
